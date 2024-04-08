@@ -1,0 +1,120 @@
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   overflow: auto;
+}
+
+.container {
+    min-height: 100vh;
+    background-color: rgb(34,34,34);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+
+.container .content{
+   width: 700px;
+}
+
+.container .content h3{
+   text-transform: uppercase;
+   font-size: 5vw;
+}
+
+.container .content p{
+   font-size: 20px;
+   padding:10px 0;
+}
+
+.container .content p span{
+   color:crimson;
+}
+
+    .container .content .logout {
+        display: inline-block;
+        padding: 10px 35px;
+        font-size: 20px;
+        margin-top: 10px;
+        background-color: rgb(34,34,34);
+        color: #222;
+    }
+    
+.container .content .logout:hover{
+   background-color: crimson;
+}
+.img-container {
+    position: relative;
+}
+
+.login-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.form-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 2px solid #000;
+    padding: 20px;
+    text-align: center;
+    width: 500px;
+}
+
+    .form-container .title {
+        font-size: 25px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    .form-container .box {
+        width: 100%;
+        padding: 12px 14px;
+        font-size: 20px;
+        text-transform: none;
+        border: 2px solid #000;
+        margin: 10px 0;
+    }
+
+    .form-container .form-btn {
+        display: block;
+        width: 100%;
+        font-size: 20px;
+        padding: 10px;
+        background-color: #000;
+        color: #fff;
+        cursor: pointer;
+        margin: 10px 0;
+    }
+
+        .form-container .form-btn:hover {
+            background-color: crimson;
+        }
+
+    .form-container p {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+        .form-container p a {
+            color: crimson;
+        }
+
+    .form-container .error-msg {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+        margin: 10px 0;
+        background-color: crimson;
+        font-size: 20px;
+        color: #fff;
+    } 
